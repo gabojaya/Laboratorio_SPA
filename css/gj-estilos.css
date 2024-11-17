@@ -1,0 +1,65 @@
+@font-face { font-family: 'Romanesco'; src: url('../fonts/Romanesco-Regular.ttf') format('truetype');  font-weight: normal; font-style: normal;}
+@font-face { font-family: 'Inter'; src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+
+body{ margin: 0px auto;}
+
+/* Header*/
+.gj-header { height: 70px; background: #A3A656; display: flex; align-items: center; justify-content: space-between;}
+.gj-menu1{padding-left: 70px;}
+.gj-menu1 ul {list-style: none; margin: 0px; padding: 0px 0px;} 
+.gj-menu1 ul li{ display: inline-block;margin: 0px;}
+.gj-menu1 ul li a{ text-decoration: none;  font-size: 16px; font-family: 'Inter'; color: #000000; text-transform: uppercase; padding-right: 20px;}
+.gj-menu1 :hover { color: #FFFF00;}
+.gj-menu2{ display: flex; align-items: center; gap: 40px; font-family: 'Inter'; font-size: 14px;  }
+.gj-menu2 :hover { color: #FFFF00;}
+#gj-cuenta { display: flex; align-items: center; gap: 10px;}
+#gj-idioma{ display: flex; align-items: center; gap: 15px;}
+#gj-images-arrow{ padding-right: 10px;}
+
+/* Imagen con texto*/
+.gj-images-spa{ display: flex;}
+.gj-images-spa img { width: 100%; height: 100%; object-fit: cover;}
+.gj-texto-sobre-imagen { position: absolute; top: 35%; left: 190px; font-family: 'Romanesco'; font-size: 96px; color: #000000;}
+.gj-texto-sobre-imagen2 { width: 500px; position: absolute; top: 55%;  left: 190px;  font-family: 'Inter'; font-size: 32px; font-weight: 600; color: #000000;}
+
+/* Reserva tu cita - Código Promocional*/
+.gj-reserva{ height: 100px; background: #F2F6F6; display: flex; align-items: center; justify-content: center; text-transform: uppercase; gap: 30px; font-family: 'Inter'; font-size: 16px;}
+.gj-reserva input{ border: none; height: 50px; width: 250px; text-transform: uppercase; padding-left: 10px; border-radius: 15px 15px 15px 15px; background: #ffffff;}
+#gj-reserva-cita{ display: flex; align-items: center; gap: 20px;}
+#gj-codigo-promocional{ display: flex; align-items: center; gap: 20px;}
+
+/* Tarjetas de Masajes*/
+.gj-card-container{ display: flex; justify-content: center; gap: 134px; background: #ffffff; padding: 100px 0px; font-family: 'Inter';}
+.gj-card{ background: #A3A656; border-radius: 15px 15px 0px 0px; width: 300px; text-align: center;}
+.gj-titulo{ font-size: 32px; font-weight: 600; color: #ffffff; padding: 10px 0px;}
+.gj-card .gj-imagen-reservas{ width: 300px; height: 226px;}
+.gj-card .gj-imagen-reservas img{ width: 100%; height: auto;}
+.gj-descripcion{ font-size: 16px; text-align: left; padding: 10px 0px; background: #ffffff;}
+.gj-precio-boton{ display: flex; align-items: center; justify-content: space-between; background: #ffffff;}
+.gj-precio{ font-size: 32px; font-weight: 600; padding-left: 10px;}
+.gj-add-button{ padding-right: 10px;}
+.gj-add-button a{ background: #A3A656; padding: 10px 30px; border-radius: 35px 35px 35px 35px; font-size: 16px; font-weight: 600; text-decoration: none; text-transform: uppercase; color: #ffffff;}
+.gj-add-button a:hover{ background: #384001;}
+
+/* Membresias*/
+.gj-container-membresias{ height: 770px; background: #F2F6F6; display: flex; flex-direction: column;}
+.gj-container-membresias h1{ font-size: 32px; font-family: 'Inter'; font-weight: 600; text-align: center; padding-bottom: 50px;}
+.gj-card-membresias{ display: flex; justify-content: center; gap: 134px;}
+.gj-membresia{ display: flex; flex-direction: column; align-items: center; font-family: 'Inter';}
+.gj-imagen-membresias { width: 233px;  height: 233px; background: #ffffff; border: 11px solid #384001;  border-radius: 50%;  display: flex; align-items: center; justify-content: center; text-align: center; font-weight: bold;}
+.gj-titulo-membresia{ font-size: 32px; font-weight: 600; text-align: center; padding-bottom: 60px; text-transform: uppercase; padding-top: 5px;}
+.gj-add-button-membresia a{ background: #A3A656; padding: 20px 70px; border-radius: 35px 35px 35px 35px; font-size: 16px; font-weight: 600; text-decoration: none; text-transform: uppercase; color: #ffffff;}
+.gj-add-button-membresia a:hover{ background: #384001;}
+.gj-beneficios{ padding: 20px 0px; width: 218px;}
+.gj-beneficios ul li{ font-size: 16px; padding: 5px 0px;}
+
+/* Footer */
+.gj-footer { height: 97px; background: #384001; display: flex; align-items: center; justify-content: space-between; font-family: 'Inter';}
+.gj-menuFooter1{ padding: 0px 0px 0px 70px;}
+.gj-menuFooter1 ul { list-style: none; padding: 0px 0px;} 
+.gj-menuFooter1 ul li{ display: inline-block; padding-right: 40px;}
+.gj-menuFooter1 ul li a{ text-decoration: none; font-size: 16px; color: #A3A656;text-transform: uppercase;}
+.gj-menuFooter1 :hover {color: #FFFF00;}
+.gj-menuFooter2 :hover {color: #FFFF00;}
+#gj-redes{ color: #A3A656;display: flex; align-items: center;gap: 30px;font-size: 16px;text-transform: uppercase;}
+#gj-images-youtube{ padding-right: 50px;}
